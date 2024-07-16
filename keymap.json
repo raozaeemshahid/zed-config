@@ -3,13 +3,11 @@
     "bindings": {
       "shift-tab": "menu::SelectPrev",
       "home": "menu::SelectFirst",
-      "pageup": "menu::SelectFirst",
       "shift-pageup": "menu::SelectFirst",
       "ctrl-p": "menu::SelectPrev",
       "ctrl-n": "menu::SelectNext",
       "tab": "menu::SelectNext",
       "end": "menu::SelectLast",
-      "pagedown": "menu::SelectLast",
       "shift-pagedown": "menu::SelectFirst",
       "shift-enter": "picker::UseSelectedQuery",
       "ctrl-alt-enter": ["picker::ConfirmInput", { "secondary": true }],
@@ -23,7 +21,6 @@
       "backspace": "editor::Backspace",
       "shift-backspace": "editor::Backspace",
       "delete": "editor::Delete",
-      "tab": "editor::Tab",
       "shift-tab": "editor::TabPrev",
       "ctrl-shift-left": "editor::SelectToPreviousWordStart",
       "ctrl-shift-right": "editor::SelectToNextWordEnd",
@@ -33,7 +30,6 @@
       "ctrl-;": "editor::ToggleLineNumbers",
       "ctrl-'": "editor::ToggleHunkDiff",
       "ctrl-\"": "editor::ExpandAllHunkDiffs",
-      "ctrl-i": "editor::ShowSignatureHelp",
       "alt-g b": "editor::ToggleGitBlame"
     }
   },
@@ -86,7 +82,6 @@
   {
     "context": "BufferSearchBar",
     "bindings": {
-      "tab": "buffer_search::FocusEditor",
       "shift-enter": "search::SelectPrevMatch",
       "alt-enter": "search::SelectAllMatches",
       "ctrl-f": "search::FocusSearch"
@@ -309,7 +304,6 @@
       "shift-ctrl-c": "terminal::Copy",
       "ctrl-insert": "terminal::Copy",
       "shift-ctrl-v": "terminal::Paste",
-      "shift-insert": "terminal::Paste",
       "ctrl-enter": "assistant::InlineAssist",
       "up": ["terminal::SendKeystroke", "up"],
       "pageup": ["terminal::SendKeystroke", "pageup"],
