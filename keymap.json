@@ -9,7 +9,6 @@
       "tab": "menu::SelectNext",
       "end": "menu::SelectLast",
       "shift-pagedown": "menu::SelectFirst",
-      "shift-enter": "picker::UseSelectedQuery",
       "ctrl-alt-enter": ["picker::ConfirmInput", { "secondary": true }],
       "shift-escape": "workspace::ToggleZoom",
       "f11": "zed::ToggleFullScreen"
